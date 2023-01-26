@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SuperCalculator'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SuperCalculator.'
+  s.summary          = 'A dummy description of my first Pod SuperCalculator.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,6 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/shoaib196/SuperCalculator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_version = '4.0'
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SuperCalculator/Classes/**/*'

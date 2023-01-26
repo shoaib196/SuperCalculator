@@ -1,0 +1,16 @@
+PODS:
+  - SuperCalculator (0.1.0)
+
+DEPENDENCIES:
+  - SuperCalculator (from `../`)
+
+EXTERNAL SOURCES:
+  SuperCalculator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SuperCalculator: 570f402a87e55f29598e02f011d20aab510a9c16
+
+PODFILE CHECKSUM: 2340fa2c0f5956576dba59473e70d3321f30fc5b
+
+COCOAPODS: 1.11.3

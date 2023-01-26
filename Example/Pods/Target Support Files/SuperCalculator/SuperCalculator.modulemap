@@ -1,0 +1,6 @@
+framework module SuperCalculator {
+  umbrella header "SuperCalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}
