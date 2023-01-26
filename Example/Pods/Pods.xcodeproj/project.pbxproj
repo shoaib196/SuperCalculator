@@ -51,7 +51,7 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		82AED42C691D7246A719AB4C1CE06DBF /* SuperCalculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SuperCalculator-Info.plist"; sourceTree = "<group>"; };
 		87EFC1733E0AD9834032D389F0728335 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		87FA104DC810C64AB0688A5E2E3F627E /* SuperCalculator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SuperCalculator; path = SuperCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FA104DC810C64AB0688A5E2E3F627E /* SuperCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB12D0B2CDA836C8CCFA4D23C720179 /* Pods-SuperCalculator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperCalculator_Tests-Info.plist"; sourceTree = "<group>"; };
 		9919D4A383F9418691F251B3F7DA1786 /* Pods-SuperCalculator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SuperCalculator_Tests.modulemap"; sourceTree = "<group>"; };
 		9CEE2968DE061A23B9068EDB4FA6DC2B /* Pods-SuperCalculator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SuperCalculator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		A4FB82444F645EB6D2B23352FDEB88BE /* Pods-SuperCalculator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperCalculator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B14508A1913DFFEFB305F619D07BB535 /* SuperCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperCalculator.debug.xcconfig; sourceTree = "<group>"; };
 		BA8245E1706E4E0C052AF04CEBACFFC8 /* Pods-SuperCalculator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperCalculator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BFA8D9BC54BBFC3B4445EFE3DB540029 /* Pods-SuperCalculator_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SuperCalculator_Example"; path = Pods_SuperCalculator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA8D9BC54BBFC3B4445EFE3DB540029 /* Pods_SuperCalculator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperCalculator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED924A197ADD526331EACC2983C4793 /* Pods-SuperCalculator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperCalculator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D0DF2931EBD6FD49B1C6A75FDFD96691 /* Pods-SuperCalculator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperCalculator_Example-Info.plist"; sourceTree = "<group>"; };
 		D2416C41D14E2BF7CD0095DF7406028C /* Pods-SuperCalculator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SuperCalculator_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		F2C5182247984D125C5535D98094041C /* SuperCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperCalculator-dummy.m"; sourceTree = "<group>"; };
 		F4C58FBC9F2E67689C65D0A62662101B /* SuperCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperCalculator-umbrella.h"; sourceTree = "<group>"; };
 		FAD39865298288AF0015A1BC /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Calculator.swift; path = SuperCalculator/Classes/Calculator.swift; sourceTree = "<group>"; };
-		FCF898F10040EE0A0F80BDC41D502107 /* Pods-SuperCalculator_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SuperCalculator_Tests"; path = Pods_SuperCalculator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF898F10040EE0A0F80BDC41D502107 /* Pods_SuperCalculator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperCalculator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,9 +145,9 @@
 		2FDD825E278E7F93C0BF00511B8349EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFA8D9BC54BBFC3B4445EFE3DB540029 /* Pods-SuperCalculator_Example */,
-				FCF898F10040EE0A0F80BDC41D502107 /* Pods-SuperCalculator_Tests */,
-				87FA104DC810C64AB0688A5E2E3F627E /* SuperCalculator */,
+				BFA8D9BC54BBFC3B4445EFE3DB540029 /* Pods_SuperCalculator_Example.framework */,
+				FCF898F10040EE0A0F80BDC41D502107 /* Pods_SuperCalculator_Tests.framework */,
+				87FA104DC810C64AB0688A5E2E3F627E /* SuperCalculator.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 			);
 			name = SuperCalculator;
 			productName = SuperCalculator;
-			productReference = 87FA104DC810C64AB0688A5E2E3F627E /* SuperCalculator */;
+			productReference = 87FA104DC810C64AB0688A5E2E3F627E /* SuperCalculator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9402EDEB8BE19CFB3790A1A5EFF70A97 /* Pods-SuperCalculator_Tests */ = {
@@ -287,7 +287,7 @@
 			);
 			name = "Pods-SuperCalculator_Tests";
 			productName = Pods_SuperCalculator_Tests;
-			productReference = FCF898F10040EE0A0F80BDC41D502107 /* Pods-SuperCalculator_Tests */;
+			productReference = FCF898F10040EE0A0F80BDC41D502107 /* Pods_SuperCalculator_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C00B1018DFF8EBE8869DAB5EC78D4097 /* Pods-SuperCalculator_Example */ = {
@@ -306,7 +306,7 @@
 			);
 			name = "Pods-SuperCalculator_Example";
 			productName = Pods_SuperCalculator_Example;
-			productReference = BFA8D9BC54BBFC3B4445EFE3DB540029 /* Pods-SuperCalculator_Example */;
+			productReference = BFA8D9BC54BBFC3B4445EFE3DB540029 /* Pods_SuperCalculator_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +316,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1420;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -422,7 +422,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SuperCalculator_Tests/Pods-SuperCalculator_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SuperCalculator_Tests/Pods-SuperCalculator_Tests.modulemap";
@@ -474,6 +474,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -489,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,7 +517,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SuperCalculator/SuperCalculator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SuperCalculator/SuperCalculator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SuperCalculator/SuperCalculator.modulemap";
 				PRODUCT_MODULE_NAME = SuperCalculator;
@@ -547,7 +548,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SuperCalculator_Tests/Pods-SuperCalculator_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SuperCalculator_Tests/Pods-SuperCalculator_Tests.modulemap";
@@ -581,7 +582,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SuperCalculator_Example/Pods-SuperCalculator_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SuperCalculator_Example/Pods-SuperCalculator_Example.modulemap";
@@ -634,6 +635,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -652,7 +654,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -681,7 +683,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SuperCalculator_Example/Pods-SuperCalculator_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SuperCalculator_Example/Pods-SuperCalculator_Example.modulemap";
@@ -714,7 +716,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SuperCalculator/SuperCalculator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SuperCalculator/SuperCalculator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SuperCalculator/SuperCalculator.modulemap";
 				PRODUCT_MODULE_NAME = SuperCalculator;

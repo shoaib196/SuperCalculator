@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SuperCalculator'
   s.version          = '0.1.0'
-  s.summary          = 'A dummy description of my first Pod SuperCalculator.'
+  s.summary          = 'A dummy of my first Pod SuperCalculator.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
